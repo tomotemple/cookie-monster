@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+body #page {
+  max-width: 1000px;
+}
+body .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: auto;
+  height: 450px;
+  background-image: url(../images/tracks.jpg);
+  background-size: 3000px;
+  background-color: blue;
+  color: #508AA8;
+}
+body .header img {
+  width: 320px;
+  height: 320px;
+  margin: 150px 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+body .header h1 {
+  font-size: 100px;
+  margin-top: 15px;
+}
+body .header h2 {
+  font-size: 60px;
+}
+body .content {
+  display: flex;
+  justify-content: flex-start;
+}
+body .content #first {
+  background-color: #9DD1F1;
+  height: auto;
+  width: 550px;
+}
+body .content #second {
+  background-color: #C8E0F4;
+}
+body .content .subsec {
+  margin: 60px;
+}
+body .content div {
+  font-family: "Source Sans Pro", sans-serif;
+}
+body .content .bar {
+  height: 7px;
+  width: 100px;
+  background-color: #031927;
+  border-radius: 20%;
+  margin: 10px 10px 10px 0;
+}
+
+h3 {
+  font-family: "Armata", sans-serif;
+}
+
+/*# sourceMappingURL=styles.scss.map */
+
+/*# sourceMappingURL=styles.css.map */

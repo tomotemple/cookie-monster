@@ -1,0 +1,26 @@
+body {
+  color: #fe5f55;
+}
+body .header {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 250px;
+  background-image: url(../images/glass.jpg);
+  background-size: cover;
+  background-color: blue;
+}
+body .header img {
+  width: 200px;
+  height: 200px;
+  margin: 30px 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+body .header h1 {
+  font-size: 100px;
+}
+
+/*# sourceMappingURL=styles.scss.map */
+
+/*# sourceMappingURL=styles.css.map */
